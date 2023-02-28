@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "sparta-myhoneytip-won",
+    "slug": "sparta-myhoneytip-won",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.myhoneytip.won",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2130533629862855~8572223387"
+      }
+    },
+    "android": {
+          "package": "com.myhoneytip.gun",
+          "versionCode": 1,
+          "config": {
+            "googleMobileAdsAppId": "ca-app-pub-2130533629862855~4945923273"
+          }
+        }
+  }
+}
